@@ -1,0 +1,48 @@
+.shape {
+    position: absolute;
+    /* left: 10%;
+    right: 10%; */
+    height: 200px;
+    width: 100%;
+}
+
+.shape-1 {
+    clip-path: polygon(0 0, 23% 80%, 80% 38%);
+    -webkit-clip-path: polygon(0 0, 23% 80%, 80% 38%);
+}
+
+.shape-2 {
+    clip-path: polygon(47% 0, 80% 18%, 72% 80%, 0 46%);
+    -webkit-clip-path: polygon(47% 0, 80% 18%, 72% 80%, 0 46%);
+}
+
+.shape-3 {
+    clip-path: polygon(9% 41%, 75% 11%, 48% 49%, 50% 93%);
+    -webkit-clip-path: polygon(9% 41%, 75% 11%, 48% 49%, 50% 93%);
+}
+
+.shape-4 {
+    clip-path: polygon(24% 26%, 42% 84%, 90% 26%);
+    -webkit-clip-path: polygon(24% 26%, 42% 84%, 90% 26%);
+}
+
+.shape-5 {
+    clip-path: polygon(27% 41%, 57% 29%, 69% 69%, 51% 43%);
+    -webkit-clip-path: polygon(27% 41%, 57% 29%, 69% 69%, 51% 43%);
+}
+
+.color-1 {
+    background-color: #58838C;
+}
+
+.color-2 {
+    background-color: #58838C;
+}
+
+.color-3 {
+    background-color: #58838C;
+}
+
+.color-4 {
+    background-color: #58838C;
+}

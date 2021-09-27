@@ -1,0 +1,360 @@
+/*
+Theme Name: Y.R. International Employment Agency
+Author: frstshmn
+Author URI: http://spacedesing.in.ua
+Version: 1.0
+*/
+
+.modal {
+    overflow-y: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #58838c;
+    --secondary-color: #fff;
+    --grey-color: #666666;
+    --dark-grey-color: #222222;
+    --light-grey-color: #DDDDDD;
+}
+
+.font-extra-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.font-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.font-medium {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.font-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.background {
+    background-image: url('styles/briefcase-solid.svg');
+    background-position: center;
+    background-repeat: repeat;
+    /* background-size: cover; */
+}
+
+.background-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('styles/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*---------------------------------------
+			[BACKGROUND COLORS]
+---------------------------------------*/
+
+.background-primary {
+    background-color: var(--primary-color);
+}
+
+.background-secondary {
+    background-color: var(--secondary-color);
+}
+
+.background-grey {
+    background-color: var(--grey-color);
+}
+
+.background-dark-grey {
+    background-color: var(--dark-grey-color);
+}
+
+.background-light-grey {
+    background-color: var(--light-grey-color);
+}
+
+.background-dark-grey-transparent {
+    background-color: rgba(34, 34, 34, 0.5);
+}
+
+
+/*---------------------------------------
+			[COLORS]
+---------------------------------------*/
+
+.color-primary {
+    color: var(--primary-color);
+}
+
+.color-secondary {
+    color: var(--secondary-color);
+}
+
+.color-grey {
+    color: var(--grey-color);
+}
+
+.color-light-grey {
+    color: var(--light-grey-color);
+}
+
+.color-dark-grey {
+    color: var(--dark-grey-color);
+}
+
+.color-dark-grey-70 {
+    color: rgba(34, 34, 34, 0.7);
+}
+
+.placeholder-light-grey::placeholder {
+    color: var(--light-grey-color);
+}
+
+.input-dark-grey:focus {
+    color: var(--dark-grey-color);
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.action-button {
+    border: 1px solid white;
+}
+
+.action-button:hover {
+    border: 1px solid white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.cat-link a {
+    color: var(--grey-color);
+}
+
+.item-img {
+    height: 30vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.h7 {
+    font-size: 0.75em;
+}
+
+.h8 {
+    font-size: 0.5em;
+}
+
+.h9 {
+    font-size: 0.25em;
+}
+
+.corner-pill {
+    border-radius: 100px;
+}
+
+textarea.corner-pill,
+.modal-content.corner-pill,
+.card.corner-pill {
+    border-radius: 30px;
+}
+
+.buy-block {
+    box-shadow: inset 0 7px 9px -7px rgba(0, 0, 0, 0.4);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.buy-button {
+    box-shadow: inset 0 7px 9px -7px rgba(0, 0, 0, 0.4);
+    border-bottom-right-radius: 30px;
+}
+
+
+/* TRANSITIONS */
+
+.slide-fade-enter-active {
+    transition: all .5s ease;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */
+
+{
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 3px;
+    transition: .5s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+    opacity: 1;
+}
+
+
+/*---------------------------------------
+			[SHADOW]
+---------------------------------------*/
+
+.text-shadow {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.inner-sh {
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.corner-pill#map {
+    border-radius: 30px;
+}
+
+.corner-block {
+    border-radius: 30px;
+}
+
+#map {
+    height: 300px;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer;
+}
+
+.loader {
+    background: none repeat scroll 0 0 #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.loader .loader_inner {
+    background-image: url("styles/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    animation: loading 1s infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-image: url("styles/loader/mountain.svg");
+    }
+    25% {
+        background-image: url("styles/loader/hike.svg");
+    }
+    50% {
+        background-image: url("styles/loader/tent.svg");
+    }
+    75% {
+        background-image: url("styles/loader/compass.svg");
+    }
+    100% {
+        background-image: url("styles/loader/mountain.svg");
+    }
+}
+
+.btn-animate {
+    padding-left: 4em;
+    padding-right: 4em;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.btn-animate:hover {
+    border: 1px solid var(--primary-color);
+    -webkit-box-shadow: 0px 0px 0px 2px var(--primary-color);
+    -moz-box-shadow: 0px 0px 0px 2px var(--primary-color);
+    box-shadow: 0px 0px 0px 2px var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.action-block {
+    transform: translateY(5em);
+}
+
+.card-modal {
+    transition: .2s;
+}
+
+.card-modal:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#sideUpload #fileuploadfield {
+    display: none;
+}
+
+#sideUpload #uploadtextfield {
+    height: 18px;
+    width: 139px;
+}
+
+#sideUpload #uploadbrowsebutton {
+    height: 27px;
+    width: 147px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.scale {
+    transform: scale(2);
+}

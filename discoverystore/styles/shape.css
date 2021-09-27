@@ -1,0 +1,107 @@
+.shape{
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	height: 200px;
+	width: 80%;
+}
+
+.shape-1{
+	clip-path: polygon(0 0, 23% 80%, 80% 38%);
+	-webkit-clip-path: polygon(0 0, 23% 80%, 80% 38%);
+}
+
+.shape-2{
+	clip-path: polygon(47% 0, 80% 18%, 72% 80%, 0 46%);
+	-webkit-clip-path: polygon(47% 0, 80% 18%, 72% 80%, 0 46%);
+}
+
+.shape-3{
+	clip-path: polygon(9% 41%, 75% 11%, 48% 49%, 50% 93%);
+	-webkit-clip-path: polygon(9% 41%, 75% 11%, 48% 49%, 50% 93%);
+}
+
+.shape-4{
+	clip-path: polygon(24% 26%, 42% 84%, 90% 26%);
+	-webkit-clip-path: polygon(24% 26%, 42% 84%, 90% 26%);
+}
+
+.shape-5{
+	clip-path: polygon(79% 6%, 71% 53%, 15% 88%, 25% 46%);
+	-webkit-clip-path: polygon(79% 6%, 71% 53%, 15% 88%, 25% 46%);
+}
+
+.color-1{
+	border-bottom: 2px solid #5a3f11;
+	background-color: #ef962d;
+}
+
+.color-2{
+	border-bottom: 2px solid #222222;
+	background-color: #ccb88b;
+}
+
+.color-3{
+	border-bottom: 2px solid #333;
+	background-color: #ddb88b;
+}
+
+.color-4{
+	border-bottom: 2px solid #232020;
+	background-color: #ddb88b;
+}
+
+.color-5{
+	border-bottom: 2px solid #42240c;
+	background-color: #b0824a;
+}
+
+.line{
+	width: 100px;
+	z-index: 999;
+	position: absolute;
+}
+
+.line-1{
+	transform: rotate(30deg);
+}
+
+.line-2{
+	transform: rotate(90deg);
+}
+
+.line-3{
+	transform: rotate(120deg);
+}
+
+.line-4{
+	transform: rotate(45deg);
+}
+
+.line-5{
+	transform: rotate(10deg);
+}
+
+.position-x-1{
+	left:20%;
+}
+
+.position-x-2{
+	left:10%;
+}
+
+.position-x-3{
+	left:30%;
+}
+
+.position-y-1{
+	top:30%;
+}
+
+.position-y-2{
+	top:40%;
+}
+
+.position-y-3{
+	top:50%;
+}
